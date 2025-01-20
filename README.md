@@ -19,7 +19,6 @@ An automated system for scanning and classifying personal data in datasets using
 - **Python 3.x**
 - **spaCy** for NLP processing
 - **Pandas** for data handling
-- Custom classification algorithms
 
 ---
 
@@ -28,6 +27,7 @@ An automated system for scanning and classifying personal data in datasets using
 2. **NLP Processing**: Uses spaCy to analyze text and identify entities.
 3. **Classification**: Categorizes identified entities into GDPR-relevant categories.
 4. **Report Generation**: Creates detailed compliance reports and summaries.
+5. **Cron Scheduling**: If we are getting continously new data, adding a cron scheduler to automate the report generation is crucial. 
 
 ---
 
